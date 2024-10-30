@@ -1,0 +1,214 @@
+[
+    {
+        "name": "kuetemeier/collection",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kuetemeier/php-kuetemeier-collection.git",
+            "reference": "62853558f38113515f708daa24fa0a8149eefcb1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kuetemeier/php-kuetemeier-collection/zipball/62853558f38113515f708daa24fa0a8149eefcb1",
+            "reference": "62853558f38113515f708daa24fa0a8149eefcb1",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "dev-master",
+            "phpunit/phpunit": "^7",
+            "squizlabs/php_codesniffer": "3.*"
+        },
+        "time": "2018-05-09T17:14:45+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Kuetemeier\\Collection\\": "src/Kuetemeier/Collection/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Joerg Kuetemeier",
+                "email": "joerg@kuetemeier.de",
+                "homepage": "https://kuetemeier.de"
+            }
+        ],
+        "description": "A common Collection PHP class to use as a baseline in your projects.",
+        "keywords": [
+            "collection",
+            "kuetemeier",
+            "php"
+        ]
+    },
+    {
+        "name": "kuetemeier/wordpress",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kuetemeier/php-kuetemeier-wordpress.git",
+            "reference": "887f5106abcca0b07fc9d4aa401d0f2223f312de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kuetemeier/php-kuetemeier-wordpress/zipball/887f5106abcca0b07fc9d4aa401d0f2223f312de",
+            "reference": "887f5106abcca0b07fc9d4aa401d0f2223f312de",
+            "shasum": ""
+        },
+        "require": {
+            "kuetemeier/collection": "dev-master"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "^7",
+            "squizlabs/php_codesniffer": "3.*"
+        },
+        "time": "2018-05-09T17:18:46+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Kuetemeier\\WordPress\\": "src/Kuetemeier/WordPress/"
+            }
+        },
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Joerg Kuetemeier",
+                "email": "joerg@kuetemeier.de",
+                "homepage": "https://kuetemeier.de"
+            }
+        ],
+        "description": "A Collection of PHP class for WordPress Plugin Development",
+        "keywords": [
+            "kuetemeier",
+            "php",
+            "plugin",
+            "wordpress"
+        ],
+        "support": {
+            "issues": "https://github.com/kuetemeier/php-kuetemeier-wordpress/issues",
+            "source": "https://github.com/kuetemeier/php-kuetemeier-wordpress"
+        }
+    },
+    {
+        "name": "matthiasmullie/minify",
+        "version": "1.3.60",
+        "version_normalized": "1.3.60.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/matthiasmullie/minify.git",
+            "reference": "ab7fea80ce5ce6549baaf272bc8bd926a7e08f90"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/ab7fea80ce5ce6549baaf272bc8bd926a7e08f90",
+            "reference": "ab7fea80ce5ce6549baaf272bc8bd926a7e08f90",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcre": "*",
+            "matthiasmullie/path-converter": "~1.1",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "~2.0",
+            "matthiasmullie/scrapbook": "~1.0",
+            "phpunit/phpunit": "~4.8"
+        },
+        "suggest": {
+            "psr/cache-implementation": "Cache implementation to use with Minify::cache"
+        },
+        "time": "2018-04-18T08:50:35+00:00",
+        "bin": [
+            "bin/minifycss",
+            "bin/minifyjs"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MatthiasMullie\\Minify\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matthias Mullie",
+                "email": "minify@mullie.eu",
+                "homepage": "http://www.mullie.eu",
+                "role": "Developer"
+            }
+        ],
+        "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
+        "homepage": "http://www.minifier.org",
+        "keywords": [
+            "JS",
+            "css",
+            "javascript",
+            "minifier",
+            "minify"
+        ]
+    },
+    {
+        "name": "matthiasmullie/path-converter",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/matthiasmullie/path-converter.git",
+            "reference": "3082a6838be02b930239a97d38b5c9da4d693aca"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/3082a6838be02b930239a97d38b5c9da4d693aca",
+            "reference": "3082a6838be02b930239a97d38b5c9da4d693aca",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcre": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2018-02-02T11:30:10+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MatthiasMullie\\PathConverter\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matthias Mullie",
+                "email": "pathconverter@mullie.eu",
+                "homepage": "http://www.mullie.eu",
+                "role": "Developer"
+            }
+        ],
+        "description": "Relative path converter",
+        "homepage": "http://github.com/matthiasmullie/path-converter",
+        "keywords": [
+            "converter",
+            "path",
+            "paths",
+            "relative"
+        ]
+    }
+]

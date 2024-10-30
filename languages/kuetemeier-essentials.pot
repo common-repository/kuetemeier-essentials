@@ -1,0 +1,560 @@
+# Copyright (C) 2018 Kuetemeier-Essentials
+# This file is distributed under the same license as the Kuetemeier-Essentials package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kuetemeier-Essentials\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/code.php:47
+msgid "This Plugin requires WordPress version %s or greater."
+msgstr ""
+
+#: src/KuetemeierEssentialsPlugin.php:80
+msgid "Save"
+msgstr ""
+
+#: src/KuetemeierEssentialsPlugin.php:81
+msgid "Reset to Defaults"
+msgstr ""
+
+#: src/Modules/Analytics.php:45, src/Modules/Analytics.php:67, src/Modules/Analytics.php:68
+msgid "Analytics"
+msgstr ""
+
+#: src/Modules/Analytics.php:46
+msgid "Kuetemeier Essentials Analytics Module."
+msgstr ""
+
+#: src/Modules/Analytics.php:76
+msgid "Google Analytics"
+msgstr ""
+
+#: src/Modules/Analytics.php:88
+msgid "Header & Footer Code"
+msgstr ""
+
+#: src/Modules/Analytics.php:101
+msgid "Google Analytics (Simple Version)"
+msgstr ""
+
+#: src/Modules/Analytics.php:102
+msgid "This is the quick start for your Google Analytics Tracking, just add your GA_TRACKING_ID and done."
+msgstr ""
+
+#: src/Modules/Analytics.php:107
+msgid "Insert custom HTML Code into your Website"
+msgstr ""
+
+#: src/Modules/Analytics.php:120
+msgid "Code to insert into Header"
+msgstr ""
+
+#: src/Modules/Analytics.php:121
+msgid "Valid HTML Code, that will be placed as close as possibe after the opening <head> tag (global, on every post and page). Shortcodes will be parsed and executed."
+msgstr ""
+
+#: src/Modules/Analytics.php:122
+msgid "Note: The Theme has to support the `wp_head` code for this to work - most themes do."
+msgstr ""
+
+#: src/Modules/Analytics.php:133
+msgid "Code to insert into Footer"
+msgstr ""
+
+#: src/Modules/Analytics.php:134
+msgid "Valid HTML Code, that will be directly inserted just before the closing </body> tag (global, on every post and page). Shortcodes will be parsed and executed."
+msgstr ""
+
+#: src/Modules/Analytics.php:142
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: src/Modules/Analytics.php:143
+msgid "(e.g. UA-12345678-90)"
+msgstr ""
+
+#: src/Modules/Analytics.php:144
+msgid "Your Google Analytics Tracking-ID, found in the property settings."
+msgstr ""
+
+#: src/Modules/Analytics.php:151
+msgid "Anonymize IP"
+msgstr ""
+
+#: src/Modules/Analytics.php:152
+msgid "(highly recommended)"
+msgstr ""
+
+#: src/Modules/Analytics.php:153
+msgid "Check to anonymize the IP of the visitor, before it is send to Google."
+msgstr ""
+
+#: src/Modules/Analytics.php:181
+msgid "Here you can place code, that will be inserted into the header and footer of your Website."
+msgstr ""
+
+#: src/Modules/Analytics.php:183
+msgid "Some themes will already support this feature. Netherless, this fields are theme independent and useful for the ones, that don't."
+msgstr ""
+
+#: src/Modules/Analytics.php:185
+msgid "If you don't need them, just leave them blank."
+msgstr ""
+
+#: src/Modules/Core.php:45
+msgid "Core"
+msgstr ""
+
+#: src/Modules/Core.php:46
+msgid "Kuetemeier Essentials Core Module."
+msgstr ""
+
+#: src/Modules/Core.php:72
+msgid "Essential Features for WordPress!"
+msgstr ""
+
+#: src/Modules/Core.php:79
+msgid "General"
+msgstr ""
+
+#: src/Modules/Core.php:85
+msgid "Modules"
+msgstr ""
+
+#: src/Modules/Core.php:91
+msgid "Insights"
+msgstr ""
+
+#: src/Modules/Core.php:99
+msgid "Version Information"
+msgstr ""
+
+#: src/Modules/Core.php:105
+msgid "What is new?"
+msgstr ""
+
+#: src/Modules/Core.php:111
+msgid "Enabled Modules"
+msgstr ""
+
+#: src/Modules/Core.php:117
+msgid "Module Management"
+msgstr ""
+
+#: src/Modules/Core.php:118
+msgid "Coming soon."
+msgstr ""
+
+#: src/Modules/Core.php:123
+msgid "Usefull informations about your WordPress installation:"
+msgstr ""
+
+#: src/Modules/Core.php:135
+msgid "Stable Version"
+msgstr ""
+
+#: src/Modules/Core.php:135
+msgid "Development Version"
+msgstr ""
+
+#: src/Modules/Core.php:137
+msgid "Kuetemeier Essentials Plugin Version"
+msgstr ""
+
+#: src/Modules/Core.php:138
+msgid "Version Type"
+msgstr ""
+
+#: src/Modules/Core.php:139
+msgid "License"
+msgstr ""
+
+#: src/Modules/Core.php:139
+msgid "GPL (Standard, free)"
+msgstr ""
+
+#: src/Modules/Core.php:141
+msgid "Did you know? There is a Pro Version of this plugin available. You can get it here:"
+msgstr ""
+
+#: src/Modules/Core.php:148
+msgid "This is the initial public release. In the next weeks, I will launch some helpfull and documenting articles on my Blog"
+msgstr ""
+
+#: src/Modules/Core.php:150
+msgid "With regard to the GDPR, there will be regular updates and additional functions in the next few days."
+msgstr ""
+
+#: src/Modules/Core.php:158
+msgid "Module"
+msgstr ""
+
+#: src/Modules/Core.php:158
+msgid "Description"
+msgstr ""
+
+#: src/Modules/Core.php:177
+msgid "yes"
+msgstr ""
+
+#: src/Modules/Core.php:177
+msgid "no"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:45, src/Modules/Dataprivacy.php:64, src/Modules/Dataprivacy.php:65
+msgid "Data Privacy"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:46
+msgid "Kuetemeier Essentials Data Privacy Module."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:51
+msgid "\/data-privacy\/"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:66
+msgid "Helps you with some GDPR requirements."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:74
+msgid "General Data Privacy"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:81
+msgid "Introduction"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:82
+msgid "An introduction and more help to data privacy. (Comming soon)."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:87
+msgid "WordPress Comments"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:88
+msgid "It is recommended to add a privacy checkbox to the commentary function."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:95
+msgid "Privacy for WordPress Comments"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:97
+msgid "Add Privacy Checkbox"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:98
+msgid "(recommended) Adds a privacy checkbox to the WordPress comment system."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:103
+msgid "URL to data privacy statement"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:105, src/Modules/Toolkit.php:82, src/Modules/Toolkit.php:83
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:106
+msgid "A valid URL, e.g. /privacy/ or https://yourdomain.com/privacy/."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:107
+msgid "Point this to you privacy statement URL (a link to it is shown in the notice)."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:150
+msgid "Data Privacy Statement"
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:155
+msgid "I have read the %s and accept the it."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:163
+msgid "You must agree to our privacy term by checking the box..."
+msgstr ""
+
+#: src/Modules/Dataprivacy.php:194
+msgstr ""
+
+#: src/Modules/Media.php:45, src/Modules/Media.php:65
+msgid "Media"
+msgstr ""
+
+#: src/Modules/Media.php:46
+msgid "WordPress media enhancements."
+msgstr ""
+
+#: src/Modules/Media.php:66
+msgid "WordPress Media Library enhancements."
+msgstr ""
+
+#: src/Modules/Media.php:73
+msgid "Common Media Library Options"
+msgstr ""
+
+#: src/Modules/Media.php:74
+msgid "On this tab you find some enhancements for the WordPress Media Library."
+msgstr ""
+
+#: src/Modules/Media.php:79, src/Modules/Media.php:101
+msgid "imgix Support"
+msgstr ""
+
+#: src/Modules/Media.php:84
+msgid "kimg Shortcode"
+msgstr ""
+
+#: src/Modules/Media.php:92
+msgid "Add external Media to the Library"
+msgstr ""
+
+#: src/Modules/Media.php:93
+msgid "If activated, this feature will allow you to add external Media (by it's URL) to the Media Library."
+msgstr ""
+
+#: src/Modules/Media.php:94
+msgid "The media is NOT imported, but you can use it like \"normal\" media and enhance it with custom fields (like captions or copyright informations)."
+msgstr ""
+
+#: src/Modules/Media.php:95
+msgid "This is usefull for [S3](https://aws.amazon.com/s3), CDN or [imgix](https://imgix.com) integration."
+msgstr ""
+
+#: src/Modules/Media.php:102
+msgid "[imgix](https://imgix.com) is a \"Powerful image processing,  simple API - Optimize, deliver, and cache your entire image library for fast, stress-free websites and apps TRY IT FREE\"."
+msgstr ""
+
+#: src/Modules/Media.php:114
+msgid "\"kimg\" - Kuetemeier Image Shortcode"
+msgstr ""
+
+#: src/Modules/Media.php:115
+msgid "Usefull Shortcut to create image tags with imgix support and copyright informations."
+msgstr ""
+
+#: src/Modules/Media.php:125
+msgid "Enable external Media"
+msgstr ""
+
+#: src/Modules/Media.php:127
+msgid "Check to be able to reference external Media and add it to the Media Library."
+msgstr ""
+
+#: src/Modules/Media.php:131
+msgid "Enable IMGIX JavaScript"
+msgstr ""
+
+#: src/Modules/Media.php:133
+msgid "Check to enable the IMGIX JavaScript"
+msgstr ""
+
+#: src/Modules/Media.php:244, src/Modules/Media.php:245
+msgid "Reference by URL"
+msgstr ""
+
+#: src/Modules/Media.php:265
+msgid "URL to reference Media to"
+msgstr ""
+
+#: src/Modules/Media.php:267
+msgid "Image URL (https://my.domain/my-image.jpg)"
+msgstr ""
+
+#: src/Modules/Media.php:273
+msgid "Please fill in the following properties manually. If you leave the fields blank (or 0 for width/height), the plugin will try to resolve them automatically"
+msgstr ""
+
+#: src/Modules/Media.php:276
+msgid "Width"
+msgstr ""
+
+#: src/Modules/Media.php:278
+msgid "Height"
+msgstr ""
+
+#: src/Modules/Media.php:280
+msgid "MIME Type"
+msgstr ""
+
+#: src/Modules/Media.php:291
+msgid "Add"
+msgstr ""
+
+#: src/Modules/Media.php:293
+msgid "Cancel"
+msgstr ""
+
+#: src/Modules/Media.php:325
+msgid "Reference Media by URL"
+msgstr ""
+
+#: src/Modules/Media.php:330
+msgid "Add External Media without Import"
+msgstr ""
+
+#: src/Modules/Media.php:388, src/Modules/Media.php:395
+msgid "Width and height must be non-negative integers."
+msgstr ""
+
+#: src/Modules/Media.php:429
+msgid "Unable to get the image size."
+msgstr ""
+
+#: src/Modules/Optimization.php:45, src/Modules/Optimization.php:64
+msgid "Optimization"
+msgstr ""
+
+#: src/Modules/Optimization.php:46, src/Modules/Optimization.php:65
+msgid "Optimize your WordPress installation."
+msgstr ""
+
+#: src/Modules/Optimization.php:72
+msgid "Speed"
+msgstr ""
+
+#: src/Modules/Optimization.php:79
+msgid "Basic WordPress Features"
+msgstr ""
+
+#: src/Modules/Optimization.php:80
+msgid "These are basic WordPress features, that most likely are not needed and we recommend to disable them."
+msgstr ""
+
+#: src/Modules/Optimization.php:87
+msgid "WP Emojis Support"
+msgstr ""
+
+#: src/Modules/Optimization.php:89
+msgid "Disable WordPress Emojis"
+msgstr ""
+
+#: src/Modules/Optimization.php:90
+msgid "(recommended) Check to disable the Emojis support in WordPress."
+msgstr ""
+
+#: src/Modules/Optimization.php:95
+msgid "WP Embeds Support"
+msgstr ""
+
+#: src/Modules/Optimization.php:97
+msgid "Disable WordPress Embeds"
+msgstr ""
+
+#: src/Modules/Optimization.php:98
+msgid "(recommended) Check to disable the \"Embed\" functionality in WordPress."
+msgstr ""
+
+#: src/Modules/Security.php:45, src/Modules/Security.php:64
+msgid "Security"
+msgstr ""
+
+#: src/Modules/Security.php:46, src/Modules/Security.php:65
+msgid "Increase the Security of your WordPress installation."
+msgstr ""
+
+#: src/Modules/Security.php:72
+msgid "Common"
+msgstr ""
+
+#: src/Modules/Security.php:79
+msgid "IT-Security"
+msgstr ""
+
+#: src/Modules/Security.php:85
+msgid "Remove Version Informations"
+msgstr ""
+
+#: src/Modules/Security.php:92
+msgid "Remove WordPress Version"
+msgstr ""
+
+#: src/Modules/Security.php:94
+msgid "Check to remove the WordPress Version from the HTML Code and RSS."
+msgstr ""
+
+#: src/Modules/Security.php:95
+msgid "(recommended)"
+msgstr ""
+
+#: src/Modules/Security.php:114
+msgid "IT security requires a complete concept that goes beyond the scope of this module."
+msgstr ""
+
+#: src/Modules/Security.php:115
+msgid "But a few useful features help you to better secure your WordPress installation (more features coming soon):"
+msgstr ""
+
+#: src/Modules/Test.php:46, src/Modules/Test.php:69, src/Modules/Test.php:70, src/Modules/Test.php:84, src/Modules/Test.php:91, src/Modules/Test.php:111, src/Modules/Test.php:119
+msgid "Test"
+msgstr ""
+
+#: src/Modules/Test.php:47
+msgid "Test module for development - Not recommended!."
+msgstr ""
+
+#: src/Modules/Test.php:79
+msgid "Test General"
+msgstr ""
+
+#: src/Modules/Test.php:97
+msgid "Test 2"
+msgstr ""
+
+#: src/Modules/Test.php:103
+msgid "Test 3"
+msgstr ""
+
+#: src/Modules/Test.php:113, src/Modules/Test.php:121, src/Modules/Test.php:134, src/Modules/Test.php:142, src/Modules/Test.php:150, src/Modules/Test.php:163
+msgid "A Label"
+msgstr ""
+
+#: src/Modules/Test.php:114, src/Modules/Test.php:122, src/Modules/Test.php:135, src/Modules/Test.php:143, src/Modules/Test.php:151, src/Modules/Test.php:164
+msgid "A Description"
+msgstr ""
+
+#: src/Modules/Test.php:132
+msgid "Number"
+msgstr ""
+
+#: src/Modules/Test.php:140
+msgid "Email"
+msgstr ""
+
+#: src/Modules/Test.php:148, src/Modules/Test.php:161
+msgid "Select"
+msgstr ""
+
+#: src/Modules/Toolkit.php:45, src/Modules/Toolkit.php:63
+msgid "Toolkit"
+msgstr ""
+
+#: src/Modules/Toolkit.php:46, src/Modules/Toolkit.php:64
+msgid "Little helper and tools for enriching your WordPress installation."
+msgstr ""
+
+#: src/Modules/Toolkit.php:71
+msgid "Shortcodes"
+msgstr ""
+
+#: src/Modules/Toolkit.php:72
+msgid "The Toolkit section comes with some handy Shortcodes:"
+msgstr ""
+
+#: src/Modules/Toolkit.php:80
+msgid "Dates"
+msgstr ""
+
+#: src/Modules/Toolkit.php:81
+msgid "Use the Shortcode `[ke-current-year]` to display the current year. Very helpful in Copyright notices."
+msgstr ""

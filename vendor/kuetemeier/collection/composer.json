@@ -1,0 +1,35 @@
+{
+  "name": "kuetemeier/collection",
+  "description": "A common Collection PHP class to use as a baseline in your projects.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "version": "1.2.0",
+  "authors": [
+    {
+      "name": "Joerg Kuetemeier",
+      "email": "joerg@kuetemeier.de",
+      "homepage": "https://kuetemeier.de"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/kuetemeier/php-kuetemeier-collection/issues",
+    "source": "https://github.com/kuetemeier/php-kuetemeier-collection"
+  },
+  "keywords": [
+    "kuetemeier",
+    "collection",
+    "php"
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*",
+    "phpunit/phpunit": "^7",
+    "phpdocumentor/phpdocumentor": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kuetemeier\\Collection\\": "src/Kuetemeier/Collection/"
+    }
+  }
+}
